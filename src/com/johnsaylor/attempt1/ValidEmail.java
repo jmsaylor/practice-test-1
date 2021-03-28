@@ -1,4 +1,4 @@
-package com.johnsaylor;
+package com.johnsaylor.attempt1;
 
 import java.util.regex.Pattern;
 

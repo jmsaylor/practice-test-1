@@ -1,0 +1,11 @@
+SELECT id, name FROM customer
+WHERE (country = 'USA' AND credits > 100000)
+ORDER BY id
+
+SELECT uin, name
+FROM employee JOIN employee_uin ON (employee.id = employee_uin.id)
+WHERE age < 25
+ORDER BY name, id
+
+SELECT id, name FROM customer
+ORDER BY name, id

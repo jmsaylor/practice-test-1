@@ -1,4 +1,4 @@
-package com.johnsaylor;
+package com.johnsaylor.attempt1;
 
 public class BinaryTreeSearch {
     public static void test(){
@@ -30,7 +30,6 @@ public class BinaryTreeSearch {
 
     static boolean checkValue(int num, Node head){
         if (head == null) return false;
-        System.out.println(head.value);
         if (head.value == num) return true;
 
         if (num > head.value) {

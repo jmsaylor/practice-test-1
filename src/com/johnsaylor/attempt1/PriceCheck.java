@@ -1,4 +1,4 @@
-package com.johnsaylor;
+package com.johnsaylor.attempt1;
 
 public class PriceCheck {
     public static void test(){
