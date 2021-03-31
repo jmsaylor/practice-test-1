@@ -7,8 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        var t = new CompileTest();
-        t.main(new String[]{});
-
+        var l =new Ladder();
+        l.main(new String[]{"Hello"});
     }
 }
